@@ -1,4 +1,5 @@
 # My dotfiles
+---
 
 ## Installation
 
@@ -43,7 +44,12 @@ export PATH="/usr/local/bin:$PATH"
 ```
 
 ### Vim configuration
+
 Follow https://github.com/ytjia/k-vim
+
+### Shell configuration
+
+Use zsh, to update
 
 ### Sensible macOS defaults
 
@@ -63,8 +69,9 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 
 Some of the functionality of these dotfiles depends on formulae installed by `brew.sh`. If you don’t plan to run `brew.sh`, you should look carefully through the script and manually install any particularly important ones. A good example is Bash/Git completion: the dotfiles use a special version from Homebrew.
 
-## Thanks to…
+## Thanks to
 
+* [Mathias Bynens](https://mathiasbynens.be/) and his[dotfiles repository](https://github.com/mathiasbynens/dotfiles)
 * @ptb and [his _OS X Lion Setup_ repository](https://github.com/ptb/Mac-OS-X-Lion-Setup)
 * [Ben Alman](http://benalman.com/) and his [dotfiles repository](https://github.com/cowboy/dotfiles)
 * [Chris Gerke](http://www.randomsquared.com/) and his [tutorial on creating an OS X SOE master image](http://chris-gerke.blogspot.com/2012/04/mac-osx-soe-master-image-day-7.html) + [_Insta_ repository](https://github.com/cgerke/Insta)
