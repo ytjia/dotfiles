@@ -9,13 +9,22 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias ic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
+alias ws='cd ~/WorkSpace'
+alias doc='cd ~/Documents'
 alias g="git"
+alias gs='git status'
+alias gch='git checkout'
+alias gpo='git push origin'
+alias gcam='git commit -a -m'
 alias h="history"
 alias j="jobs"
+alias clr='clear'
+
+# Work
+alias goto='sh /Users/didi/WorkSpace/didi/xg01-autologin/autologin.sh'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -155,7 +164,7 @@ alias pumpitup="osascript -e 'set volume output volume 100'"
 alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
 
 # Lock the screen (when going AFK)
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+# alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"

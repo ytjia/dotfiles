@@ -32,3 +32,9 @@ export MANPAGER='less -X';
 # Avoid issues with `gpg` as installed via Homebrew.
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
+
+# Work
+export ARCDIR=/Users/didi/CRClientTools/arcanist/bin
+
+# Path
+export PATH="/usr/local/bin:/usr/local/sbin/:${ARCDIR}:$PATH"
